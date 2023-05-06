@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+
+
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+
+.andrew {
+  height: 550px;
+  width: 550px;
+  margin-left: 20px;
+  margin-top: -100px;
+  animation: andrew 7s ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes andrew {
+  0% {
+    margin-top: -600px;
+  }
+
+  25% {
+    margin-top: -30px;
+  }
+
+  50% {
+    margin-top: -100px;
+  }
+
+  75% {
+    margin-top: -30px;
+  }
+
+  100% {
+    margin-top: -600px;
+  }
+}
